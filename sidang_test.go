@@ -9,5 +9,4 @@ func TestInputData(m *testing.T) {
 		Nomor: "asda",
 		Judul: {"", ""},
 	}
-
 }
