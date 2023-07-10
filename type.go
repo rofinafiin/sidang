@@ -1,6 +1,6 @@
 package sidang
 
 type Skt struct {
-	Nomor string
-	Judul []string
+	Nomor string   `json:"nomor,omitempty" bson:"nomor,omitempty"`
+	Judul []string `json:"judul,omitempty" bson:"judul,omitempty"`
 }
